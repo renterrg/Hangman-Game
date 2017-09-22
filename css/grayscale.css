@@ -7,10 +7,10 @@ body {
   width: 100%;
   height: 100%;
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color: white;
-  background-color: black;
+  color: gray;
+  background-color: white;
   font-size: 30px;
-  
+
 }
 html {
   width: 100%;
@@ -75,6 +75,11 @@ a:focus {
 @media (min-width: 768px) {
 
 }
+
+.brand-heading {
+  opacity: 0.8;
+}
+
 .intro {
   display: table;
   width: 100%;
@@ -88,6 +93,7 @@ a:focus {
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  opacity: 0.8;
 }
 .intro .intro-body {
   display: table-cell;
@@ -96,6 +102,8 @@ a:focus {
 .intro .intro-body .brand-heading {
   font-size: 40px;
 }
+
+
 .intro .intro-body .intro-text {
   font-size: 18px;
   font-weight: bold;
@@ -248,14 +256,21 @@ ul.banner-social-buttons {
   }
 }
 footer {
-  padding: 30px 0;
-  border-top-style: solid;
-  border-top-color: white;
+  padding-top: 2em;
+  margin-top: 3em;
+  background-color: black;
+  height: 9em;
 
 }
 footer p {
   margin: 0;
-  font-size: 15px;
+  font-size: 20px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+}
+
+#footer_text {
+  margin-top: 3em;
 }
 ::-moz-selection {
   text-shadow: none;
