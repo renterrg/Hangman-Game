@@ -81,6 +81,7 @@
       if(placeHolder === wordUsed) {
           wins++;
           startGame();
+          document.getElementById("numberOfGuesses").innerHTML = totalGuesses;
       }
 
       if(totalGuesses === 0) {
