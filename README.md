@@ -15,6 +15,5 @@ the screen after each round is finished. If the game is lost, an alert will appe
 
 ## Preview
 
-![alt text](https://github.com/renterrg/Hangman-Game/new/master/img/harry-potter-banner-1.jpg)
 
 
